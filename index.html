@@ -1,0 +1,322 @@
+<html>
+<head>
+<!-- Meta setup -->
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="keywords" content="">
+		<meta name="decription" content="">
+
+<script src="https://kit.fontawesome.com/7a7c8513d5.js" crossorigin="anonymous"></script>
+
+<!-- Fav Icon -->
+		<link rel="icon" href="img/fav.png" />	
+
+<!-- Main StyleSheet -->
+		<link rel="stylesheet" href="style.css" />	
+                
+                <link rel="stylesheet" href="responsive.css" />	
+
+</head>
+<body>
+<!-- header area start -->
+		<div class="header">
+			<div class="container-fluid">
+				<div class="header-wrapper">
+					<div class="row align-items-center">
+						<div class="col-lg-6 col-md-5">
+							<div class="header-left">
+								<div class="header-logo">
+									<a href="#">
+										<img src="img/logo.jpg" alt="images not found">
+									</a>  
+                                                                        <br />
+                                                                        Group Travel Made Easy   
+								</div>
+								<div class="header-right">
+								        <ul>
+									<li><a href="#"><img src="img/ser.png" alt="images not found"></a></li>
+									<li><img src="img/man.png" alt="images not found"/></li>
+									<li><span id="arrow"><i class="fas fa-angle-down"></i></span></li>
+								        </ul>
+							        </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- header area end -->
+<!-- pfhere area start -->
+		<div class="pfhere">
+			<div class="container">
+				<div class="pfhere-wrapper">
+					<div class="row">
+						<div class="col-lg-6 col-md-6">
+							<div class="pfhere-right-heading d-block d-md-none">
+								<h3> <span id="fname">Firstname</span> Invited you to an unforgettable <span id="exp">Experience</span> trip</h3>
+							</div>
+
+                                                               <div class="pfhere-left-upload">
+									<div class="povideo-wrapper">
+										<div class="upload-btn-wrapper">
+                                                  
+                                                                                       
+  							<video id="video" controls>
+							<source src="https://www.dropbox.com/s/h7adwdvdvhitzxo/Anniversary_1.mp4?raw=1" type="video/mp4">
+  							</video>   
+                                                                             
+										</div>	
+                                                                                  
+									                <p>Download Bookfully Brochure</p>
+									                <a id="link" href="files/Anniversary.pdf">DOWNLOAD NOW!</a>
+								                        
+									</div>
+								</div>
+						</div>
+						<div class="col-lg-6 col-md-6">
+                                                        
+							<div class="pfhere-right">
+								<div class="pfhere-right-content text-center">
+                                                                        <img src="img/woman.png" alt="images not found">
+									<span id="frnd">Friend thought of you as the perfect travel friend..</span>
+									<h2>Beds Are Limited!</h2>
+									<p>RSVP by simply convering your first night!</p>
+									<a id="page" href="rsvp_vacation.html">RSVP NOW!</a>
+								</div>
+							</div>
+                                                                <div class="pfhere-right-heading d-none d-md-block">
+									<p>Don't miss the most talked about trip of {{Year}}!</p>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- pfhere area end -->
+<script>
+
+const queryString = window.location.search;
+
+console.log(queryString);
+
+const urlParams = new URLSearchParams(queryString);
+
+const experience = urlParams.get('experience')
+
+console.log(experience);
+
+const friend = urlParams.get('friend')
+
+console.log(friend);
+
+if (experience == 'birthday') { 
+
+document.getElementById("video").src = "https://www.dropbox.com/s/aiaj5g8mtyi9nrp/Birthday.mp4?raw=1";
+document.getElementById("link").href = "files/Birthday.pdf";
+var trip = document.getElementById("exp").innerHTML = experience;
+var name = document.getElementById("fname").innerHTML = friend;
+document.getElementById("frnd").innerHTML = friend + " thought of you as the perfect travel friend..";
+var url = "rsvp_vacation.html?friend=" + encodeURIComponent(name) + "&experience=" + encodeURIComponent(trip);
+document.getElementById("page").href = url;
+
+}
+
+if (experience == 'bachelor') { 
+
+document.getElementById("video").src = "https://www.dropbox.com/s/rcn9bsfbogd8wxy/Bachelor_3.mp4?raw=1";
+document.getElementById("link").href = "files/Bachelor.pdf";
+var trip = document.getElementById("exp").innerHTML = experience;
+var name = document.getElementById("fname").innerHTML = friend;
+document.getElementById("frnd").innerHTML = friend + " thought of you as the perfect travel friend..";
+var url = "rsvp_vacation.html?friend=" + encodeURIComponent(name) + "&experience=" + encodeURIComponent(trip);
+document.getElementById("page").href = url;
+
+}
+
+if (experience == 'bachelorette') { 
+
+document.getElementById("video").src = "https://www.dropbox.com/s/6wvwbjb4khaqp1c/Bachelorette_3.mp4?raw=1";
+document.getElementById("link").href = "files/Bachelorette.pdf";
+var trip = document.getElementById("exp").innerHTML = experience;
+var name = document.getElementById("fname").innerHTML = friend;
+document.getElementById("frnd").innerHTML = friend + " thought of you as the perfect travel friend..";
+var url = "rsvp_vacation.html?friend=" + encodeURIComponent(name) + "&experience=" + encodeURIComponent(trip);
+document.getElementById("page").href = url;
+
+}
+
+if (experience == 'anniversary') { 
+
+document.getElementById("video").src = "https://www.dropbox.com/s/h7adwdvdvhitzxo/Anniversary_1.mp4?raw=1";
+document.getElementById("link").href = "files/Anniversary.pdf";
+var trip = document.getElementById("exp").innerHTML = experience;
+var name = document.getElementById("fname").innerHTML = friend;
+document.getElementById("frnd").innerHTML = friend + " thought of you as the perfect travel friend..";
+var url = "rsvp_vacation.html?friend=" + encodeURIComponent(name) + "&experience=" + encodeURIComponent(trip);
+document.getElementById("page").href = url;
+
+}
+
+if (experience == 'wedding') { 
+
+document.getElementById("video").src = "https://www.dropbox.com/s/ewd4j8qd9zaq03x/01_Wedding_3.mp4?raw=1";
+document.getElementById("link").href = "files/Wedding.pdf";
+var trip = document.getElementById("exp").innerHTML = experience;
+var name = document.getElementById("fname").innerHTML = friend;
+document.getElementById("frnd").innerHTML = friend + " thought of you as the perfect travel friend..";
+var url = "rsvp_vacation.html?friend=" + encodeURIComponent(name) + "&experience=" + encodeURIComponent(trip);
+document.getElementById("page").href = url;
+
+}
+
+if (experience == 'beach') { 
+
+document.getElementById("video").src = "https://www.dropbox.com/s/ipbpxl6cbuc0e7f/Beach_2.mp4?raw=1";
+document.getElementById("link").href = "files/Beach.pdf";
+var trip = document.getElementById("exp").innerHTML = experience;
+var name = document.getElementById("fname").innerHTML = friend;
+document.getElementById("frnd").innerHTML = friend + " thought of you as the perfect travel friend..";
+var url = "rsvp_vacation.html?friend=" + encodeURIComponent(name) + "&experience=" + encodeURIComponent(trip);
+document.getElementById("page").href = url;
+
+}
+
+if (experience == 'boating') { 
+
+document.getElementById("video").src = "https://www.dropbox.com/s/5tj4vf92gwhmbu4/Boating_2.mp4?raw=1";
+document.getElementById("link").href = "files/Boating.pdf";
+var trip = document.getElementById("exp").innerHTML = experience;
+var name = document.getElementById("fname").innerHTML = friend;
+document.getElementById("frnd").innerHTML = friend + " thought of you as the perfect travel friend..";
+var url = "rsvp_vacation.html?friend=" + encodeURIComponent(name) + "&experience=" + encodeURIComponent(trip);
+document.getElementById("page").href = url;
+
+}
+
+if (experience == 'corporate') { 
+
+document.getElementById("video").src = "https://www.dropbox.com/s/c8voxkovw5b8vcy/Corporate.mp4?raw=1";
+document.getElementById("link").href = "files/Corporate.pdf";
+var trip = document.getElementById("exp").innerHTML = experience;
+var name = document.getElementById("fname").innerHTML = friend;
+document.getElementById("frnd").innerHTML = friend + " thought of you as the perfect travel friend..";
+var url = "rsvp_vacation.html?friend=" + encodeURIComponent(name) + "&experience=" + encodeURIComponent(trip);
+document.getElementById("page").href = url;
+
+}
+
+if (experience == 'couples') { 
+
+document.getElementById("video").src = "https://www.dropbox.com/s/hyg0nixndlthyfg/Couples.mp4?raw=1";
+document.getElementById("link").href = "files/Couples.pdf";
+var trip = document.getElementById("exp").innerHTML = experience;
+var name = document.getElementById("fname").innerHTML = friend;
+document.getElementById("frnd").innerHTML = friend + " thought of you as the perfect travel friend..";
+var url = "rsvp_vacation.html?friend=" + encodeURIComponent(name) + "&experience=" + encodeURIComponent(trip);
+document.getElementById("page").href = url;
+
+}
+
+if (experience == 'events') { 
+
+document.getElementById("video").src = "https://www.dropbox.com/s/96diop49xbckc5v/Events_3.mp4?raw=1";
+document.getElementById("link").href = "files/Events.pdf";
+var trip = document.getElementById("exp").innerHTML = experience;
+var name = document.getElementById("fname").innerHTML = friend;
+document.getElementById("frnd").innerHTML = friend + " thought of you as the perfect travel friend..";
+var url = "rsvp_vacation.html?friend=" + encodeURIComponent(name) + "&experience=" + encodeURIComponent(trip);
+document.getElementById("page").href = url;
+
+}
+
+if (experience == 'family') { 
+
+document.getElementById("video").src = "https://www.dropbox.com/s/m886crbeq3b80s6/Family.mp4?raw=1";
+document.getElementById("link").href = "#";
+var trip = document.getElementById("exp").innerHTML = experience;
+var name = document.getElementById("fname").innerHTML = friend;
+document.getElementById("frnd").innerHTML = friend + " thought of you as the perfect travel friend..";
+var url = "rsvp_vacation.html?friend=" + encodeURIComponent(name) + "&experience=" + encodeURIComponent(trip);
+document.getElementById("page").href = url;
+
+}
+
+if (experience == 'fishing') { 
+
+document.getElementById("video").src = "https://www.dropbox.com/s/3y2pnau1wcyyfr6/Fishing.mp4?raw=1";
+document.getElementById("link").href = "files/Fishing.pdf";
+var trip = document.getElementById("exp").innerHTML = experience;
+var name = document.getElementById("fname").innerHTML = friend;
+document.getElementById("frnd").innerHTML = friend + " thought of you as the perfect travel friend..";
+var url = "rsvp_vacation.html?friend=" + encodeURIComponent(name) + "&experience=" + encodeURIComponent(trip);
+document.getElementById("page").href = url;
+
+}
+
+if (experience == 'girls') { 
+
+document.getElementById("video").src = "https://www.dropbox.com/s/34y9069id4ycwaa/Girls.mp4?raw=1";
+document.getElementById("link").href = "files/Girls.pdf";
+var trip = document.getElementById("exp").innerHTML = experience;
+var name = document.getElementById("fname").innerHTML = friend;
+document.getElementById("frnd").innerHTML = friend + " thought of you as the perfect travel friend..";
+var url = "rsvp_vacation.html?friend=" + encodeURIComponent(name) + "&experience=" + encodeURIComponent(trip);
+document.getElementById("page").href = url;
+
+}
+
+if (experience == 'golf') { 
+
+document.getElementById("video").src = "https://www.dropbox.com/s/cafr4es97iwsr1i/Golf.mp4?raw=1";
+document.getElementById("link").href = "files/Golf.pdf";
+var trip = document.getElementById("exp").innerHTML = experience;
+var name = document.getElementById("fname").innerHTML = friend;
+document.getElementById("frnd").innerHTML = friend + " thought of you as the perfect travel friend..";
+var url = "rsvp_vacation.html?friend=" + encodeURIComponent(name) + "&experience=" + encodeURIComponent(trip);
+document.getElementById("page").href = url;
+
+}
+
+if (experience == 'mens') { 
+
+document.getElementById("video").src = "https://www.dropbox.com/s/l7g4y7q9t9hk3ki/Mens_3.mp4?raw=1";
+document.getElementById("link").href = "files/Mens.pdf";
+var trip = document.getElementById("exp").innerHTML = experience;
+var name = document.getElementById("fname").innerHTML = friend;
+document.getElementById("frnd").innerHTML = friend + " thought of you as the perfect travel friend..";
+var url = "rsvp_vacation.html?friend=" + encodeURIComponent(name) + "&experience=" + encodeURIComponent(trip);
+document.getElementById("page").href = url;
+
+}
+
+if (experience == 'reunion') { 
+
+document.getElementById("video").src = "https://www.dropbox.com/s/jsnl44y4xfwaenx/Reunion.mp4?raw=1";
+document.getElementById("link").href = "files/Reunion.pdf";
+var trip = document.getElementById("exp").innerHTML = experience;
+var name = document.getElementById("fname").innerHTML = friend;
+document.getElementById("frnd").innerHTML = friend + " thought of you as the perfect travel friend..";
+var url = "rsvp_vacation.html?friend=" + encodeURIComponent(name) + "&experience=" + encodeURIComponent(trip);
+document.getElementById("page").href = url;
+
+}
+
+if (experience == 'team') { 
+
+document.getElementById("video").src = "https://www.dropbox.com/s/t83to1jsbc4uk8i/Team.mp4?raw=1";
+document.getElementById("link").href = "files/Team.pdf";
+var trip = document.getElementById("exp").innerHTML = experience;
+var name = document.getElementById("fname").innerHTML = friend;
+document.getElementById("frnd").innerHTML = friend + " thought of you as the perfect travel friend..";
+var url = "rsvp_vacation.html?friend=" + encodeURIComponent(name) + "&experience=" + encodeURIComponent(trip);
+document.getElementById("page").href = url;
+
+}
+
+
+
+</script>
+
+</body>
+</html>

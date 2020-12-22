@@ -1,0 +1,895 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+
+.header-search input {
+    width: 318px;
+    margin-left: 45px;
+}
+
+.header-right {
+    align-items: center;
+    display: flex;
+    margin-left: 480px;
+}
+
+.header-right ul {
+    align-items: center;
+    display: flex;
+    float: right;
+}
+
+
+.header-right ul li {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+video {
+
+width: 620px;
+height: 380px;
+
+}
+
+.pfhere-left-heading {
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    margin-left: 400px;
+}
+
+.footer-left ul li:first-child {
+    margin-right: 0;
+}
+
+.footer-left ul li {
+    display: inline-block;
+    font-size: 11.5px; 
+    margin-left: 0;
+}
+    
+.footer-left ul li a {
+    display: inline-block;
+    font-size: 11.5px; 
+    margin-left: 0;
+}
+
+.footer-right ul li {
+    margin-left: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+.header-right {
+    align-items: center;
+    display: flex;
+    margin-left: 320px;
+}
+
+.header-right ul {
+    align-items: center;
+    display: flex;
+    float: right;
+}
+
+
+.header-right ul li {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+video {
+
+width: 500px;
+height: 380px;
+
+}
+
+.povideo-wrapper .fliebtn {
+    padding: 100px 0;
+}
+
+.sm-header-left img {
+    width: 60%;
+}
+
+.poname-left {
+    padding-right: 0px;
+}
+
+.pname-right .btn {
+	padding: 60px 0;
+}
+
+.poimagine .poname-left {
+	padding-left: 0;
+}
+
+.posobook-wrapper {
+	padding: 20px;
+}
+
+.posobook-right a {
+    padding: 10px 34px;
+}
+
+.stlist-one-content p {
+	font-size: 15px;
+}
+
+.shepa-left {
+    margin-left: 0px;
+}
+
+.pfhere-right-heading h3 {
+    font-size: 20px;
+}
+
+.pfhere-right-content {
+    margin-top: 58px;
+}
+
+.pfhere-left-upload .povideo-wrapper .fliebtn {
+    padding: 60px 0;
+}
+
+.pfload-wrapper {
+    border-radius: 8px;
+    padding: 40px 15px;
+}
+
+.pfload-left img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.pfload-right p {
+    margin-bottom: 0px;
+}
+
+.pfload-right h3 {
+    font-size: 20px;
+}
+
+.pfload-right a {
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 26px;
+    padding: 12px 59px;
+}
+
+.pfload {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (min-width: 576px) and (max-width: 767px) {	
+
+.header-right {
+    align-items: center;
+    display: flex;
+    margin-left: 120px;
+}
+
+.header-right ul {
+    align-items: center;
+    display: flex;
+    float: right;
+}
+
+
+.header-right ul li {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+video {
+
+width: 420px;
+height: 300px;
+
+}
+
+
+.povideo-wrapper .povideo-button img {
+    width: 70px;
+    margin-bottom: 25px;
+}
+
+.povideo-wrapper .povideo-button h2 {
+    font-size: 16px;
+}
+
+.povideo-wrapper .fliebtn {
+    padding: 60px 0;
+}
+
+.povaction-heading h2 {
+    color: #111;
+    font-size: 23px;
+}
+
+.povaction-left ul li a {
+    font-size: 11px;
+}
+
+.povaction-right {
+    text-align: left!important;
+}
+
+.povaction-right a {
+    padding: 8px 32px;
+    margin-top: 25px;
+    display: block;
+}
+
+.pname-right {
+    margin-top: 25px;
+}
+
+.pname-right .btn {
+    padding: 50px 0;
+}
+
+.poimagine .poname-left {
+    padding-left: 0;
+    padding-right: 0px;
+}
+
+.poimagine {
+    margin-top: 25px;
+}
+
+.poah {
+    margin-top: 45px;
+}
+
+.poname-left {
+    padding-right: 0px;
+}
+
+.posobook-wrapper {
+    padding: 15px;
+    text-align: center;
+    border-radius: 0px;
+}
+
+.posobook-left h5 {
+    font-size: 17px;
+    text-align: left;
+}
+
+.posobook-left h3 {
+    font-size: 16px;
+    text-align: left;
+}
+
+.posobook-right .povaction-right {
+    text-align: center!important;
+}
+
+.posobook-two {
+    margin-top: 50px;
+}
+
+.footer-left {
+    text-align: center;
+}
+
+.footer-left ul li {
+    margin-left: 0;
+    margin-bottom: 6px;
+    display: block;
+    text-align: left !important;
+}
+
+.footer-left ul li span {
+    display: none;
+}
+
+.footer-right {
+    text-align: center!important;
+}
+
+.stselect-heading h2 {
+    font-size: 25px;
+}
+
+.stselect {
+    margin-top: 35px;
+}
+
+.stlist {
+    margin-top: 40px;
+    margin-bottom: 45px;
+}
+
+.stlist-one-img img {
+    margin-bottom: 10px;
+}
+
+.stlist-one {
+    margin-bottom: 45px;
+}
+
+.ptmanic-link-name a {
+    padding: 10px 22px;
+}
+
+.shepa-left {
+    margin-left: 0px;
+}
+
+.pfhere-right-heading h3 {
+    font-size: 21px; 
+    margin-bottom: 25px;
+}
+
+.pfhere-right-content {
+    margin-top: 50px;
+}
+
+.pfwsl-nav img {
+    display: block;
+    width: 45px;
+    margin: auto;
+    position: initial;
+    margin-top: 25px!important;
+}
+
+.pfhere-right-heading {
+    text-align: center;
+}
+
+.pfhere-left-upload .povideo-wrapper .fliebtn {
+    padding: 50px 0;
+}
+
+.pfload-wrapper {
+    border-radius: 8px;
+    padding: 40px 15px;
+}
+
+.pfload-left img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.pfload-right p {
+    margin-bottom: 0px;
+}
+
+.pfload-right h3 {
+    font-size: 20px;
+}
+
+.pfload-right a {
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 26px;
+    padding: 12px 59px;
+}
+
+.pfload {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.povide {
+    margin-top: 25px;
+}
+
+.povaction-heading p {
+    font-size: 14px;
+}
+
+.poname-left h4 {
+    margin-bottom: 0;
+}
+
+.pname-right {
+    margin-bottom: 20px;
+}
+
+.smpone-left p {
+    margin-top: 15px;
+}
+
+.footer-left ul li img {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-right {
+    text-align: left!important;
+}
+
+.footer-right ul {
+    margin-top: 15px;
+}
+
+.footer-right ul li {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.pfhere {
+    margin-top: 15px;
+}
+
+.pfhere-left-heading {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.pfwho-heading p {
+    font-size: 14px;
+}
+
+.pfwho-heading h4 {
+    margin-bottom: 14px;
+}
+
+.pfbooking-left h3 {
+    font-size: 20px;
+    text-align: left;
+}
+
+.posobook {
+    margin-top: 25px;
+}
+
+.pfload {
+    background-color: #F8F8F8;
+}
+
+.pfload-right h6 {
+    font-size: 15px;
+}
+
+.ptmainc-heading p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 576px) {
+
+.header-right {
+    align-items: center;
+    display: flex;
+    margin-left: 25px;
+}
+
+.header-right ul {
+    align-items: center;
+    display: flex;
+    float: right;
+}
+
+
+.header-right ul li {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+video {
+
+width: 320px;
+height: 240px;
+
+}
+
+
+.povideo-wrapper .povideo-button img {
+    width: 70px;
+    margin-bottom: 25px;
+}
+
+.povideo-wrapper .povideo-button h2 {
+    font-size: 16px;
+}
+
+.povideo-wrapper .fliebtn {
+    padding: 60px 0;
+}
+
+.povaction-heading h2 {
+    color: #111;
+    font-size: 23px;
+}
+
+.povaction-left ul li a {
+    font-size: 11px;
+}
+
+.povaction-right {
+	text-align: left!important;
+}
+
+.povaction-right a {
+	padding: 16px 32px;
+	margin-top: 25px;
+	display: block;
+	box-shadow: 0px 0px 11px 2px rgba(0,0,0,.2);
+}
+
+.pname-right {
+	margin-top: 25px;
+}
+
+.pname-right .btn {
+    padding: 50px 0;
+}
+
+.poimagine .poname-left {
+	padding-left: 0;
+	padding-right: 0px;
+}
+
+.poimagine {
+    margin-top: 10px;
+}
+
+.poah {
+    margin-top: 15px;
+}
+
+.poname-left {
+    padding-right: 0px;
+}
+
+.posobook-wrapper {
+	padding: 15px;
+	text-align: center;
+	border-radius: 0px;
+}
+
+.posobook-left h5 {
+    font-size: 17px;
+    text-align: left;
+}
+
+.posobook-left h3 {
+    font-size: 16px;
+    text-align: left;
+}
+
+.posobook-right .povaction-right {
+	text-align: center!important;
+}
+
+.posobook-two {
+    margin-top: 50px;
+}
+
+.footer-left {
+	text-align: center;
+}
+
+.footer-left ul li {
+	margin-left: 0;
+	margin-bottom: 6px;
+	display: block !important;
+	text-align: left;
+}
+    
+.footer-left ul li:first-child {
+     margin-bottom: 15px;   
+}
+
+.footer-left ul li span {
+	display: none;
+}
+
+.footer-right {
+	text-align: center!important;
+}
+
+.stselect-heading h2 {
+    font-size: 21px;
+}
+
+.stselect {
+    margin-top: 35px;
+}
+
+.stlist {
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+.stlist-one-img img {
+    margin-bottom: 10px;
+}
+
+.stlist-one {
+	margin-bottom: 26px;
+}
+
+.ptmanic-link-name a {
+    padding: 10px 23px;
+}
+
+.shepa-left {
+    margin-left: 0px;
+}
+
+.pfhere-right-heading h3 {
+    font-size: 18px; 
+    margin-bottom: 5px;
+}
+
+.pfhere-right-content {
+    margin-top: 20px;
+}
+
+.pfwsl-nav img {
+    display: block;
+    width: 45px;
+    margin: auto;
+    position: initial;
+    margin-top: 25px!important;
+}
+
+.pfhere-right-heading {
+	text-align: center;
+}
+
+.pfhere-left-upload .povideo-wrapper .fliebtn {
+    padding: 50px 0;
+}
+
+.pfload-wrapper {
+    border-radius: 0;
+    padding: 40px 15px;
+    background: none;
+}
+
+.pfload-left img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.pfload-right p {
+    margin-bottom: 0px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.pfload-right h3 {
+    font-size: 20px;
+}
+
+.pfload-right a {
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 26px;
+    padding: 12px 59px;
+}
+
+.pfload {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.povide {
+    margin-top: 25px;
+}
+
+.povaction-heading p {
+    font-size: 14px;
+}
+
+.poname-left h4 {
+    margin-bottom: 0;
+}
+
+.pname-right {
+    margin-bottom: 20px;
+}
+
+.smpone-left p {
+    margin-top: 15px;
+}
+
+.footer-left ul li img {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-right {
+    text-align: left!important;
+}
+
+.footer-right ul {
+    margin-top: 15px;
+}
+
+.footer-right ul li {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.pfhere {
+    margin-top: 15px;
+}
+
+.pfhere-left-heading {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.pfwho-heading p {
+    font-size: 14px;
+}
+
+.pfwho-heading h4 {
+    margin-bottom: 14px;
+}
+
+.pfbooking-left h3 {
+    font-size: 20px;
+    text-align: left;
+}
+
+.posobook {
+    margin-top: 25px;
+}
+
+.pfload {
+    background-color: #F8F8F8;
+}
+
+.pfload-right h6 {
+    font-size: 15px;
+}
+
+.ptmainc-heading p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.pfhere-right-content a {
+    margin-top: 15px;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 360px) {
+
+.header-right {
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+}
+
+.header-right ul {
+    align-items: center;
+    display: flex;
+    float: right;
+}
+
+
+.header-right ul li {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+video {
+
+width: 240px;
+height: 150px;
+
+}
+
+.ptmanic-link-name a {
+    padding: 10px 10px;
+}
+
+.pfhere-right-content {
+    margin-top: 15px;
+}
+
+.pfhere-right-content a {
+    margin-top: 15px;
+}
+
+.pfload-right a {
+    padding: 12px 32px
+}
+
+.pone-sm-book-wrapper ul li a {
+    margin-right: 5px;
+}
+
+.pone-sm-book-wrapper ul li:last-child a {
+    padding: 10px 8px;
+}
+
+
+}
